@@ -153,3 +153,42 @@ button {
 .quote, .author {
     margin: 0px 280px;
 }
+
+.third-section {
+    display: flex;
+    min-height: 350px;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-to-action {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882F6;
+    width: 1000px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.cta-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-title {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.cta-text {
+ color: #E5E7EB;
+ font-size: 18px;
+}
+
+.cta-button {
+    border: solid;
+    border-width: 2px;
+    border-color: #F9FAF8;
+}
